@@ -147,6 +147,10 @@ margin-left: 10px;
 
 
 
+.mobilebut2{
+  display: inline-block;
+  float: right;
+}
 
 
 
@@ -155,6 +159,33 @@ margin-left: 10px;
 
 
 
+.buttonmobile {
+float: right;
+  line-height: 14px;
+letter-spacing: 1px;
+    border-radius: 4px;
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  background-color: #F0FFFF;
+  border: none;
+  color: #40757e;
+  font-size: 12px;
+  font-weight: bold;
+padding: 12px;
+  font-family: quasimoda, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+margin-left: 10px;
+
+}
 
 
 
@@ -310,7 +341,7 @@ margin-top: 2px;
 }
 
 .parent {
-  max-width: 1000px;
+
   display: grid;
   gap: 0px;
   grid-template-areas:
@@ -382,7 +413,7 @@ padding-top: 10px;
  }
 
 .portrait{
-padding-left: 40px;
+padding-left: 20px;
 }
 
  .footer1 { grid-area: footer1;
@@ -504,12 +535,12 @@ margin-left: 20px;
 
 .about img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+margin-top: 30px;
 height: auto;
 }
 
 .nav {
-margin-left: -20px;
+margin-left: -10px;
   padding-top: 0px;
  list-style-type: none;
 }
@@ -519,14 +550,16 @@ margin-left: -20px;
 
   width: 400px;
      object-fit:
-padding:80px;
-padding: 35px;
+
+
 
 }
 
-
+.info{
+  width: 800px;
+}
 .about { grid-area: about;
-padding-top: 10px;
+padding-top: 20px;
 font-family: quasimoda, sans-serif;
 
 font-weight: 700;
@@ -570,9 +603,17 @@ a:link{
 
       color: #F0FFFF;
 }
+
+
+.about a:link{
+
+      color: #40757e;
+}
+
+
 .aboutme{
 color: #40757e;
-
+margin-left: 20px
 font-family: quasimoda, sans-serif;
 margin-right: 20px;
 font-weight: 400;
@@ -597,12 +638,12 @@ padding-bottom: 30px;
 
   font-style: normal;
 
-    margin-left: 30px;
+
   color: #40757e;
 
 }
 .Skills2{
-  margin-left: 20px;
+
   color: #63abb7;
   font-family: quasimoda, sans-serif;
 
@@ -610,7 +651,7 @@ padding-bottom: 30px;
 
   font-style: normal;
 
-    margin-left: 30px;
+
   color: #40757e;
 
 }
@@ -622,10 +663,8 @@ padding-bottom: 30px;
   padding-bottom: 30px;
 }
 .listtwo{
-
+font-weight:  400;
   color: #40757e;
 padding-bottom: 30px;
   font-family: quasimoda, sans-serif;
-}
-
 }
