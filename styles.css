@@ -61,6 +61,7 @@ float: left;
 
 
     .wrapper {
+      width: 800px;
       display: grid;
       gap: 0px;
       grid-template-areas:
@@ -69,7 +70,10 @@ float: left;
         "content"
         "footer";
     }
-
+.nav-itemhome{
+  display: inline-grid;
+  margin-right: 30px;
+}
 
 
 .buttons {
@@ -251,10 +255,10 @@ margin-left: 10px;
 .title {
   color: #40757e;
   font-family: quasimoda, sans-serif;
-  font-weight: 2000;
-  font-style: normal;
+  font-weight: bolder;
+
   text-align: left;
-margin-left: 45px;
+margin-left: 70px;
   margin-top: 10px;
 }
 
